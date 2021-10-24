@@ -60,13 +60,13 @@
   background: $color-blue;
 }
 
-.contacts__list {
+.contacts {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.contact__link {
+.contacts__link {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -81,7 +81,7 @@
   }
 }
 
-.contact__item {
+.contacts__item {
   padding: 0;
   &:not(:last-child) {
     margin-right: 50px;
@@ -90,8 +90,8 @@
 .contacts__icon {
   margin-right: 10px;
   fill: $color-gray;
-  .contact__link:hover &,
-  .contact__link:focus & {
+  .contacts__link:hover &,
+  .contacts__link:focus & {
     fill: $color-blue;
   }
 }

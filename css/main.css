@@ -4,10 +4,6 @@ body {
   font-size: 14px;
 }
 
-header {
-  height: 83px;
-}
-
 h1,
 h2,
 h3,
@@ -214,7 +210,7 @@ footer {
   fill: #fff;
 }
 
-.modal__open--active {
+.hero__button--active {
   text-align: center;
   margin: 0 auto;
   margin-top: 30px;
@@ -246,7 +242,7 @@ footer {
   fill: #fff;
 }
 
-.modal__open--active,
+.hero__button--active,
 .form__button,
 .footer__button {
   cursor: pointer;
@@ -265,7 +261,7 @@ footer {
   color: #fff;
 }
 
-.modal__close--active {
+.button__close--active {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -288,7 +284,7 @@ footer {
           align-items: center;
 }
 
-.button__list {
+.buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,7 +293,7 @@ footer {
           justify-content: center;
 }
 
-.button__item:not(:last-child) {
+.buttons__item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -370,7 +366,7 @@ footer {
   width: 100%;
 }
 
-.modal__close--active:hover .close__icon {
+.button__close--active:hover .close__icon {
   fill: #2196f3;
 }
 
@@ -438,10 +434,6 @@ footer {
 
 .form__label:focus-within .label__icon {
   outline: none;
-  fill: #2196f3;
-}
-
-.modal__close--active:hover .label__icon {
   fill: #2196f3;
 }
 
@@ -613,7 +605,7 @@ footer {
   background: #2196f3;
 }
 
-.contacts__list {
+.contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -623,7 +615,7 @@ footer {
   margin-left: auto;
 }
 
-.contact__link {
+.contacts__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -639,15 +631,15 @@ footer {
   color: #757575;
 }
 
-.contact__link:hover, .contact__link:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: #2196f3;
 }
 
-.contact__item {
+.contacts__item {
   padding: 0;
 }
 
-.contact__item:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -656,8 +648,8 @@ footer {
   fill: #757575;
 }
 
-.contact__link:hover .contacts__icon,
-.contact__link:focus .contacts__icon {
+.contacts__link:hover .contacts__icon,
+.contacts__link:focus .contacts__icon {
   fill: #2196f3;
 }
 
@@ -665,10 +657,6 @@ footer {
   background-color: #c4c4c4;
   padding: 200px 0;
   position: relative;
-  z-index: 2;
-}
-
-.hero__bunner {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -692,7 +680,7 @@ footer {
   color: #fff;
 }
 
-.peculiarities__list {
+.peculiarities {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -739,7 +727,7 @@ footer {
   color: #757575;
 }
 
-.job__heading {
+.section__heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -747,7 +735,7 @@ footer {
   text-align: center;
 }
 
-.job__list {
+.job {
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -784,7 +772,7 @@ footer {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.team__heading {
+.section__heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -792,7 +780,7 @@ footer {
   text-align: center;
 }
 
-.team__list {
+.team {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -831,7 +819,7 @@ footer {
   color: #757575;
 }
 
-.clients__heading {
+.section__heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -839,7 +827,7 @@ footer {
   text-align: center;
 }
 
-.clients__list {
+.clients {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1010,7 +998,7 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.portfolio__list {
+.portfolio {
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;

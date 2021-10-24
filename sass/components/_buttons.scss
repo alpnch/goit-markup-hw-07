@@ -1,4 +1,4 @@
-.modal__open--active {
+.hero__button--active {
   text-align: center;
   margin: 0 auto;
   margin-top: 30px;
@@ -26,7 +26,7 @@
   fill: $color-white;
 }
 
-.modal__open--active,
+.hero__button--active,
 .form__button,
 .footer__button {
   cursor: pointer;
@@ -43,7 +43,7 @@
   color: $color-white;
 }
 
-.modal__close--active {
+.button__close--active {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -62,12 +62,12 @@
 
 //portfolio buttons
 
-.button__list {
+.buttons {
   display: flex;
   justify-content: center;
 }
 
-.button__item {
+.buttons__item {
   &:not(:last-child) {
     margin-right: 10px;
   }

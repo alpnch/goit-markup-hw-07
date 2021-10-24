@@ -37,7 +37,7 @@
 }
 
 .close__icon {
-  .modal__close--active:hover & {
+  .button__close--active:hover & {
     fill: $color-blue;
   }
 }
@@ -99,9 +99,6 @@
 
   .form__label:focus-within & {
     outline: none;
-    fill: $color-blue;
-  }
-  .modal__close--active:hover & {
     fill: $color-blue;
   }
 }
