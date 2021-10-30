@@ -357,6 +357,10 @@ footer {
   padding: 40px;
 }
 
+.modal-open {
+  overflow: hidden;
+}
+
 .is-hidden .modal {
   -webkit-transform: translate(-50%, -50%) scale(1.5);
           transform: translate(-50%, -50%) scale(1.5);

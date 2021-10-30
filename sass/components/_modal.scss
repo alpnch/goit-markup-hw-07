@@ -27,6 +27,10 @@
   transition: transform $trans-duration $timing-function;
   padding: 40px;
 
+  &-open {
+    overflow: hidden;
+  }
+
   .is-hidden & {
     transform: translate(-50%, -50%) scale(1.5);
   }
